@@ -24,8 +24,8 @@ This script require `python3`, `azure-cli`, `curl`, and `jq`
 sudo apt install python3
 ```
 * azure-cli 
->following method is used with raspian because of no package available in sources repository
->however on linux or debian use `sudo apt install azure-cli`
+>following method is used with Raspbian because of no package available in sources repository
+>however on Ubuntu or Debian use `sudo apt install azure-cli`
 ```sh
   curl https://azurecliprod.blob.core.windows.net/install.py >> installAzureCliPython.py
   sudo chmod +x installAzureCliPython.py
