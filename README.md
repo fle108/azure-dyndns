@@ -53,7 +53,7 @@ sudo apt install jq
 In order to get current ip address you need a echo/miror ip service \
 you can use third party service as the excellent [ifconfig.co](http://ifconfig.co) \
 or use you own based on works already present on GitHub. \
-In my case i use [Greenstatic/echo-ip](https://github.com/greenstatic/echo-ip) dev in `Go` that fits very well with a [microk8s](https://microk8s.io/) deploy.  \
+Use [Greenstatic/echo-ip](https://github.com/greenstatic/echo-ip) deved in `Go` that fits very well with a [microk8s](https://microk8s.io/) deploy.  \
 
 
 >[Greenstatic/echo-ip](https://github.com/greenstatic/echo-ip) is a good tool for docker/k8s env because it's able to recover X-Forwarded source ip through proxy/ingress.
