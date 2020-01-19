@@ -19,7 +19,7 @@ passwd="<your_app_secret>"
 # connect to tenant
 az login --service-principal -u $applicationid -p $passwd --tenant $tenantId
 
-# ask dns zone and parse result with jq to obtain ip vlue only
+# ask dns zone and parse result with jq to obtain ip value only
 zone="<zone_name>"
 rg="<resource_group>"
 rc="<DNSrecord_name>"
